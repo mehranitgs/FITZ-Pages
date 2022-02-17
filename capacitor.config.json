@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "Fitz LIMS",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
