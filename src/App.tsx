@@ -27,6 +27,9 @@ import Profile from "./pages/core/Profile";
 import EditPassword from "./pages/core/EditPassword";
 import EditProfile from "./pages/core/EditProfile";
 import EditProfilePicture from "./pages/core/EditProfilePicture";
+import ForgotPassword from "./pages/authentication/ForgotPassword";
+import Register from "./pages/authentication/Register";
+import ResetPassword from "./pages/authentication/ResetPassword";
 
 setupIonicReact();
 
@@ -36,6 +39,15 @@ const App: React.FC = () => (
       <IonRouterOutlet>
         <Route exact path="/login">
           <Login />
+        </Route>
+        <Route exact path="/authentication/forgotten-password">
+           <ForgotPassword/>
+        </Route>
+        <Route exact path="/register/create-business-account">
+            <Register/>
+        </Route>
+        <Route exact path="/authentication/Reset-password">
+            <ResetPassword/>
         </Route>
         <Route exact path="/set-up-locations">
           <Location/>

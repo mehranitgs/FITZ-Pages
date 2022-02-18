@@ -79,14 +79,50 @@ const EditProfilePicture = () => {
             justifyContent: "center", 
             alignItems: "center",
             flexDirection: "column"}}
-        ><form style={{display: "flex", borderRadius: "5px",  flexDirection: "column", width: "400px",  justifyContent: "center", alignItems: "center",  height: "400px", background: "#1e81b0"}}>
+        >
+        <form 
+        style={{display: "flex", 
+        borderRadius: "5px",  
+        flexDirection: "column", 
+        width: "400px",  
+        justifyContent: "center", 
+        alignItems: "center",  
+        height: "400px", 
+        background: "#1e81b0"}}>
 
-        <label htmlFor="image" style={{marginTop: "20px", textAlign:"center", width: "70%", background: "#abdbe3",   padding: "10px",  borderRadius: "5px",}} >Choose Profile Image</label>
-          <input type="file" name="image"  id="image" style={{ display: "none"}}/>
-          <button style={{marginTop: "20px", padding: "11px", width: "70%",  borderRadius: "5px", fontWeight: "bolder"}}>Save Changes</button>
-        <button style={{marginTop: "20px", padding: "11px", width: "70%",  borderRadius: "5px", fontWeight: "bolder"}}>Back</button>
+        <label 
+        htmlFor="image" 
+        style={{
+            marginTop: "20px", 
+            textAlign:"center", 
+            width: "70%", 
+            background: "#abdbe3",   
+            padding: "10px",  
+            borderRadius: "5px",}} 
+        >Choose Profile Image</label>
+          <input 
+          type="file" 
+          name="image"  
+          id="image" 
+          style={{ 
+            display: "none"}}/>
+          <button 
+          style={{
+              marginTop: "20px", 
+              padding: "11px", 
+              width: "70%",  
+              borderRadius: "5px", 
+              fontWeight: "bolder"}}>Save Changes</button>
+        <button 
+        style={{
+            marginTop: "20px", 
+            padding: "11px", 
+            width: "70%",  
+            borderRadius: "5px", 
+            fontWeight: "bolder"}}>Back</button>
         
-      </form></div>
+      </form>
+      </div>
     </IonContent>
   </IonPage>
   )

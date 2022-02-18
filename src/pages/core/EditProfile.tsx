@@ -79,16 +79,51 @@ const EditProfile = () => {
             justifyContent: "center", 
             alignItems: "center",
             flexDirection: "column"}}
-        ><form style={{display: "flex",  flexDirection: "column", width: "400px",  borderRadius: "5px",  justifyContent: "center", alignItems: "center",  height: "400px", background: "#1e81b0"}}>
+        >
+        <form 
+        style={{
+            display: "flex",  
+            flexDirection: "column", 
+            width: "400px",  
+            borderRadius: "5px",  
+            justifyContent: "center", 
+            alignItems: "center",  
+            height: "400px", 
+            background: "#1e81b0"}}
+            >
         
-          <input type="text" placeholder="Enter Your Name" style={{  width: "70%", outline: "none", padding: "10px",  borderRadius: "5px",}}/>
+          <input 
+          type="text" 
+          placeholder="Enter Your Name" 
+          style={{  
+              width: "70%", 
+              outline: "none", 
+              padding: "10px",  
+              borderRadius: "5px",}}
+          />
         
         
-          <input type="text" placeholder="Enter Your Email" style={{marginTop: "20px", width: "70%", outline: "none", padding: "10px",  borderRadius: "5px",}}/>
+          <input 
+          type="text" 
+          placeholder="Enter Your Email" 
+          style={{
+              marginTop: "20px", 
+              width: "70%", 
+              outline: "none", 
+              padding: "10px",  
+              borderRadius: "5px",}}
+              />
        
         
          
-        <button style={{marginTop: "20px", padding: "11px", width: "70%",  borderRadius: "5px", fontWeight: "bolder" }}>Edit Profile</button>
+        <button 
+        style={{
+            marginTop: "20px", 
+            padding: "11px", 
+            width: "70%",  
+            borderRadius: "5px", 
+            fontWeight: "bolder" }}
+            >Edit Profile</button>
         
       </form></div>
     </IonContent>
